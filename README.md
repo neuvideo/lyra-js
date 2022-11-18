@@ -1,19 +1,25 @@
 # lyra-js
-A Webassembly/Javascript port of [Lyra](https://github.com/google/lyra), a neural audio codec from Google. It enables audio encoding and decoding with Lyra inside web browsers.
+A Webassembly/Javascript port of [Lyra](https://github.com/google/lyra), a neural audio codec from Google. It enables audio encoding and decoding with Lyra on web browsers.
 
-## Installation
+## Installation.
 
 ### NPM
-
 ```shell
 npm install lyra-codec --save
+```
+
+```javascript
+import {encodeWithLyra, decodeWithLyra, isLyraReady} from 'lyra-codec'
+```
+
+### UNPKG
+```javascript
+import {encodeWithLyra, decodeWithLyra, isLyraReady} from 'https://unpkg.com/lyra-codec/dist/lyra_bundle.js'
 ```
 
 ## Usage
 
 ```javascript
-import {encodeWithLyra, decodeWithLyra, isLyraReady} from 'lyra-codec';
-
 if (isLyraReady()) {
   // Encode with Lyra codec.
   const rawAudio = new Float32Array(...);
@@ -24,3 +30,5 @@ if (isLyraReady()) {
   ...
 }
 ```
+## Example
+See [Lyra on webassembly](https://lyra-69165.web.app) for a demo of lyra-js in action.

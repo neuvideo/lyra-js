@@ -1,12 +1,13 @@
 {
   "name": "lyra-codec",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "A library that allows the Lyra neural codec to be used on web browsers.",
   "main": "lyra.js",
   "scripts": {
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": ["dist/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neuvideo/lyra-js.git"
