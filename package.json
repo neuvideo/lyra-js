@@ -1,6 +1,6 @@
 {
   "name": "lyra-codec",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A library that allows the Lyra neural codec to be used on web browsers.",
   "main": "lyra.js",
   "scripts": {
