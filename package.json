@@ -7,7 +7,7 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["dist/*"],
+  "files": ["dist/*", "wasm/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neuvideo/lyra-js.git"
