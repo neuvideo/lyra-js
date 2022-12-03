@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './lyra.js',
+    entry: './src/lyra.js',
     experiments: {
         asyncWebAssembly: true,
         layers: true,
