@@ -31,4 +31,4 @@ if (isLyraReady()) {
 }
 ```
 ## Example
-See [Lyra on webassembly](https://lyra-69165.web.app) for a demo of lyra-js in action, and [Playing with Lyra](https://www.meetecho.com/blog/playing-with-lyra) on how to integrate Lyra with webrtc.
+See [Lyra on webassembly](https://lyra-69165.web.app) for a demo of lyra-js in action, and [Playing with Lyra](https://www.meetecho.com/blog/playing-with-lyra) on how to use it for webrtc.
